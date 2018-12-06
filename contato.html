@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SOS Criança Feliz</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#fbec68">
+    <meta name="msapplication-TileColor" content="#fbec68">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <nav class="nav-primary navbar navbar-expand-lg nav__sos   fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><img src="assets/logo-sos.png" alt="Logo do SOS Criança Feliz"></a>
+            <button class="navbar-toggler button-nav-sos" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span><img class="navbar-toggler-icon" src="./assets/menu.png" alt="icone do menu"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html" id="home">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./doar.html" id="doar">Doar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./estoque.html" id="estoque">Estoque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html" id="contato">Contato <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header-contato">
+        <h1>Precisa falar <br>com a gente?</h1>
+    </header>
+    <main>
+        <section class="contato my-5">
+            <div class="container">
+                <h2 class="mb-3"><strong>Entre em contato</strong></h2>
+                <p>Tire suas dúvidas, reporte um problema no site, faça sua sugestão.</p>
+                <form class="row flex-column contato-sos mt-5">
+                    <div class=" col-lg-4 form-group">
+                        <label for="formGroupExampleInput">Nome</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome">
+                    </div>
+                    <div class="col-lg-4 form-group">
+                        <label for="formGroupExampleInput2">E-mail</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="nome@email.com">
+                    </div>
+                    <div class="col-lg-4 form-group">
+                        <label for="formGroupExampleInput2">Telefone</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="DDD + Número">
+                    </div>
+                    <div class="col-lg-4 form-group">
+                        <label for="formGroupExampleInput2">Telefone</label>
+                        <textarea type="text" class="form-control" id="formGroupExampleInput3" placeholder="Digite sua mensagem..."></textarea>
+                    </div>
+                    <div class="form-group">
+                            <button class="btn btn-danger" type="submit">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-sos">
+        <div class="container">
+            <div class="row flex-wrap my-2">
+                <div class="col-sm footer-icons my-2">
+                    <a href="#"><img src="./assets/icone-linkedin.png" alt="Icone do Linkedin" target="blank"></a>
+                    <a href="https://www.instagram.com/sianeleal/"><img src="./assets/icone-instagram.png" alt="Icone do Instagram"
+                            target="blank"></a>
+                    <a href="#"><img src="./assets/icone-facebook.png" alt="Icone do Facebook" target="blank"></a>
+                </div>
+                <div class="col-sm my-2 footer-icons">
+                    <p>© Copyright 2018 - <a href="http://jldevelopment.netlify.com" target="blank">JL Developmente</a></p>
+                </div>
+                <div class="col-sm my-2">
+                    <a class="footer-logo" href="./index.html"><img src="./assets/logo-sos.png" alt="Logo do SOS Criança Feliz"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

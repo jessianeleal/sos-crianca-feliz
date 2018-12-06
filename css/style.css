@@ -1,0 +1,282 @@
+body {
+    font-family: 'Text Me One', sans-serif;
+    color: #6b5b5b;
+    font-size: 1.3rem;
+}
+
+/* Página Home */
+.nav__sos {
+    background: #FBEC68;
+}
+
+.nav__sos img{
+    width: 6rem;
+}
+
+.nav__sos a{
+    color: #E32414;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button-nav-sos {
+    color: #E32414;
+}
+
+.button-nav-sos img{
+    width: 40px;
+    height: 50px;
+}
+
+.header-sos img{
+    height: 37rem;
+    opacity: 0.50;
+}
+
+.header-sos h2{
+    color: #E32414;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.header-sos h1{
+    color: #FBEC68;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.header-sos h3{
+    color: #E32414;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.btn-sos a{
+    color: #ffffff;
+    font-size: 2rem;
+    background-color: #F49219;
+    padding: 0.8rem;
+    border: 1px solid #F49219;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-sos a:hover {
+    color: #F49219;
+    background: #ffffff;
+}
+
+.historia p{
+    margin: 0;
+}
+
+.historia-img{
+    text-align: center;
+    padding: 0;
+}
+
+.historia-img img{
+    width: 22rem;
+}
+
+.funcionamento {
+    background: #F49219;
+    justify-content: center;
+}
+
+.funcionamento-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.funcionamento-card h5{
+    font-size: 3rem;
+    font-weight: bold; 
+}
+
+.funcionamento-card img {
+    width: 6rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+    
+}
+
+.card-sos {
+    align-items: center;
+    background: #F5EFBA;
+    margin: 0;
+    border: 1px solid #F5EFBA;
+    border-radius: 1rem;
+}
+
+.text-sos{
+    text-align: center;
+}
+
+.footer-sos {
+    background: #FDE29E;
+    padding: 0.1rem 0;
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+}
+
+.footer-sos a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-logo img {
+    width: 8rem;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons img{
+    margin: 0 1rem;
+}
+
+.footer-icons p{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* Página Doar */
+
+.header-doar {
+    margin-top: 6.35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/banner-doar.jpg");
+    width: 100%;
+    height: 35.3rem;
+    opacity: 0.70;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-doar h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: #E32414;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.doacoes{
+    display: flex;
+    justify-content: center;
+}
+
+.doacoes-itens{
+    text-align: center;
+}
+
+.doacoes-itens h5{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.doacoes-itens span{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.cards-doar {
+    background: #F49219;
+    justify-content: center;
+    border-radius: 15rem;
+}
+
+/* Página Estoque */
+
+.header-estoque {
+    margin-top: 6.35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/banner-estoque.jpg");
+    width: 100%;
+    height: 35.3rem;
+    opacity: 0.70;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-estoque h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: #E32414;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.btn-estoque {
+    background: #F49219;
+}
+
+.btn-estoque span{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-estoque button:link{
+    text-decoration: none;
+}
+
+.title-sos {
+    font-weight: bold;
+}
+
+/* Página Contato */
+
+.header-contato {
+    margin-top: 6.35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/banner-contato.jpg");
+    width: 100%;
+    height: 35.3rem;
+    opacity: 0.70;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-contato h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: #E32414;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.contato-sos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-sos label{
+    font-weight: bold;
+}
+
+.contato-sos input {
+    border: 2px solid #F49219;
+}
+
+.contato-sos textarea {
+    border: 2px solid #F49219;
+}
