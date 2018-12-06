@@ -27,25 +27,3 @@ forms.validate({
       }
 
 })
-
-let formsDoar = $('.alimento-doar');
-console.log(formsDoar);
-
-
-formsDoar.validate({
-    errorElement: "span",
-    rules: {
-        localizacao: "required",
-        tipo: "required",
-        validade: "required",
-        quantidade: "required"
-        
-    },
-    messages: {
-        localizacao: "Por favor, preencha o campo",
-        tipo: "Por favor, preencha o campo",
-        validade: "Por favor, preencha o campo",
-        quantidade: "Por favor, preencha o campo"
-      }
-
-})

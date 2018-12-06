@@ -70,8 +70,17 @@ body {
     background: #ffffff;
 }
 
+.historia h1{
+    font-size: 2rem;
+}
+
 .historia p{
     margin: 0;
+    text-align: justify;
+}
+
+.historia span{
+    letter-spacing: 0.7rem;
 }
 
 .historia-img{
@@ -80,12 +89,20 @@ body {
 }
 
 .historia-img img{
-    width: 22rem;
+    width: 12.5rem;
 }
 
 .funcionamento {
     background: #F49219;
     justify-content: center;
+}
+
+.funcionamento-text h1 {
+    text-align: justify;
+}
+
+.funcionamento-text p {
+    text-align: justify;
 }
 
 .funcionamento-card {
