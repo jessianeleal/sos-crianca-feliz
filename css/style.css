@@ -269,6 +269,12 @@ body {
     align-items: center;
 }
 
+.contato-sos span {
+    color: #E32414;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
 .contato-sos label{
     font-weight: bold;
 }

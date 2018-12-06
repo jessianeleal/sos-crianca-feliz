@@ -1,39 +1,51 @@
-let forms = $('.needs-validation');
+let forms = $('.contato-sos');
 console.log(forms);
 
 forms.validate({
     errorElement: "span",
     rules: {
-        first_name: "required",
-        last_name: "required",
+        nome: "required",
         email: {
             required: true,
             email: true
         },
-        phone: {
+        telefone: {
             required: true
         },
-        endereco: "required",
-        cidade: "required",
-        estado: "required",
-        zip: "required",
-        msg: "required"
+        mensagem: "required"
     },
     messages: {
-        first_name: "Por favor, digite seu nome",
-        last_name: "Por favor, digite seu sobrenome",
+        nome: "Por favor, digite seu nome",
         email: {
           required: "Por favor, digite seu email",
-          email: "Por favor, digite um email com o formato name@domain.com"
+          email: "Por favor, digite um email com o formato name@email.com"
         },
-        phone: {
+        telefone: {
             required: "Por favor, digite seu celular com o DDD + número"
         },
-        endereco: "Por favor, digite seu celular",
-        cidade: "Por favor, digite a sua cidade",
-        estado: "Por favor, digite seu estado",
-        zip: "Por favor, digite seu CEP",
-        msg: "Por favor, digite seu o que você"
+        mensagem: "Por favor, digite sua mensagem"
+      }
+
+})
+
+let formsDoar = $('.alimento-doar');
+console.log(formsDoar);
+
+
+formsDoar.validate({
+    errorElement: "span",
+    rules: {
+        localizacao: "required",
+        tipo: "required",
+        validade: "required",
+        quantidade: "required"
+        
+    },
+    messages: {
+        localizacao: "Por favor, preencha o campo",
+        tipo: "Por favor, preencha o campo",
+        validade: "Por favor, preencha o campo",
+        quantidade: "Por favor, preencha o campo"
       }
 
 })
